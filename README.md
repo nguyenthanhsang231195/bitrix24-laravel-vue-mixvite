@@ -25,3 +25,9 @@ DB_PASSWORD=
 - dừng khởi động máy chủ frontend -> npm install -S vuex@next
 - New folder: store -> /store/index.js
 - update ReadME.md
+5) Setup cài đặt css
+- cd/name-project/vue -> npm install -D tailwindcss postcss autoprefixer -> npx tailwindcss init -p
+- setup tại trang vue/vite 
+- npm install @headlessui/vue @heroicons/vue @tailwindcss/forms(lưu ý file tailwind.config.cjs)
+6) Setup vue-router
+- cd/name-project/vue -> npm install -S vue-router@next
